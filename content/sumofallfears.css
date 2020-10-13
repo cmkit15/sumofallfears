@@ -1,0 +1,78 @@
+﻿html, body {
+    background-color: teal;
+    color: ghostwhite;
+}
+
+.bg {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+    background: linear-gradient(rgba(0, 0, 0, .1), rgba(0, 0, 0, .1)), url(../images/woods-md.jpg);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.75);
+}
+
+.custom-nav-bg {
+    background-color: black;
+}
+
+h1 {
+    font-size: 5rem;
+    font-weight: 300;
+    color: white;
+}
+
+.site-info {
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+    /*border: solid 1px red;*/
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.results-section {
+    max-width: 1200px;
+    height: 160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*border: solid 1px red;*/
+}
+
+#results,
+#userKvalue {
+    font-size: 2rem;
+}
+
+#errorMessage {
+    color: ghostwhite;
+    font-size: 1.5rem;
+}
+
+.input-section {
+    max-width: 300px;
+    margin: 0 auto;
+    justify-content: center;
+    /*border: solid 1px red;*/
+}
+
+.button-section {
+    max-width: 200px;
+    margin: 20px auto 50px auto;
+    /*border: solid 1px red;*/
+}
+
+button {
+    margin: 0 5px;
+}
