@@ -88,7 +88,10 @@ document.getElementById('submit').addEventListener('click', function () {
     let k = parseInt(document.getElementById('kValue').value);
     let errorMessage = "You must enter a number!";
     if (isNaN(k)) {
-        reset();
+        document.getElementById('errorMessage').innerHTML = errorMessage;       
+        document.getElementById('kValue').value = "";
+        document.getElementById('userKvalue').innerHTML = "";
+        document.getElementById('results').innerHTML = "";
     } else {
         reset();
         findMatch();
